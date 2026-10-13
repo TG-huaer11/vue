@@ -1,0 +1,8 @@
+/** 全局公共样式 */
+html,.uni-tabbar{
+	max-width: 480px;
+	margin: auto;
+}
+image{
+	max-width: 100%;
+}

@@ -1,0 +1,169 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/home/index",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				// "navigationBarTitleText": "注册登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/message",
+			"style": {
+				// "navigationBarTitleText": "注册登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/records/index",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/starting/index",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/index",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/index",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/recharge",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/withdraw",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/account/wallet",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/bills",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/password",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/payment",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/about",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/account/rule",
+			"style": {
+				// "navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/login/register",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#ffffff",
+		"selectedColor": "#5cadff",
+		"backgroundColor": "#000000",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"text": "home",
+				"iconPath": "static/tabBar/home.png",
+				"selectedIconPath": "static/tabBar/home.png"
+			},
+			{
+				"pagePath": "pages/records/index",
+				"text": "records",
+				"iconPath": "static/tabBar/records.png",
+				"selectedIconPath": "static/tabBar/records.png"
+			},
+			{
+				"pagePath": "pages/starting/index",
+				"text": "starting",
+				"iconPath": "static/tabBar/starting.png",
+				"selectedIconPath": "static/tabBar/starting.png"
+			},
+			{
+				"pagePath": "pages/service/index",
+				"text": "service",
+				"iconPath": "static/tabBar/service.png",
+				"selectedIconPath": "static/tabBar/service.png"
+			},
+			{
+				"pagePath": "pages/account/index",
+				"text": "account",
+				"iconPath": "static/tabBar/account.png",
+				"selectedIconPath": "static/tabBar/account.png"
+			}
+		]
+	},
+
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
